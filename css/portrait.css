@@ -3,7 +3,7 @@
 }
 body{
   font-family: "Rubik Dirt", system-ui;
-  background-color: #000000;
+  background-color: rgb(191, 114, 164);
   margin: 0;
   line-height: 1.5;
   color: black;
@@ -24,7 +24,7 @@ em{
 }
 h1, h2, h3, h4, h5, h6{
   font-family: "Pirata One", system-ui;
-  font-optical-sizing: auto;
+  font-size: auto;
   font-weight: 400;
   font-style: italic;
   text-transform: uppercase;
