@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: "Rubik Dirt", system-ui;
+  background-color: #000000;
+  margin: 0;
+  line-height: 1.5;
+  color: black;
+  font-size: 1.2rem;
+}
+.wrapper{
+background: #40155c;
+background: radial-gradient(circle, rgba(64, 21, 92, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(171, 79, 166, 1) 100%);
+}
+strong{
+  color: rgb(189, 139, 198);
+}
+em{
+  color: #A4B8ED;
+}
+.gagawebsite{
+  color:rgb(11, 37, 93)
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Pirata One", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
+  color:white;
+  border-bottom: dotted 3px white;
+}
+h1 span{
+  font-size: 60px;
+  display: block;
+}
+.tonybennett{
+  color: rgb(11, 37, 93);
+}
+nav ul{
+  background-color: aliceblue;
+  color: blueviolet;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+nav ul li{
+  font-family: "Pirata One", system-ui;
+  list-style: none;
+  display: inline-block;}
+nav ul li a{
+  color: blueviolet;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+.navlinks:hover{
+  transform: scale(1.1);
+}
+header{
+  padding: 6rem 4rem 4rem;
+}
+main{
+  width: 80%;
+  margin:0 auto;
+}
+figure{
+  width: 300px;
+  background-color:white;
+  padding: 1rem 1rem 1.5rem;
+  display: inline-block; 
+  vertical-align: top;
+  outline: 2px solid;
+  outline-color: rgb(0, 0, 0); 
+  margin: 5px;
+}
+figure img{
+  width: 100%;
+  height: 100%;
+}
+figure:first-of-type{
+  transform: rotate(-15deg);
+}
+figure:nth-of-type(2){
+  transform: rotate(15deg);
+}
+figure:nth-of-type(3){
+  transform: rotate(-23deg);
+}
+mark{
+    background-color: black;
+    color: white;
+}
